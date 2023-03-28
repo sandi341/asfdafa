@@ -3,7 +3,7 @@ kind: ClusterConfig
 
 metadata:
   name: spot-cluster
-  region: ap-south-1
+  region: ap-south
 
 managedNodeGroups:
 
@@ -11,4 +11,6 @@ managedNodeGroups:
 - name: spot-1
   spot: true
   ssh:
-    publicKeyName: kubernetes #place your key
+    publicKeyName: Ec2ppk #place your key
+
+
